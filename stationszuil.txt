@@ -1,0 +1,11 @@
+CREATE TABLE comments (
+    id SERIAL PRIMARY KEY,
+    datetime TIMESTAMP,
+    author TEXT,
+    message TEXT,
+    station TEXT,
+    accepted BOOLEAN,
+    rating_date TIMESTAMP,
+    moderator_name TEXT,
+    moderator_email TEXT
+);
